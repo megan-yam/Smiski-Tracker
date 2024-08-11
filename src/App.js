@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './NavBar';
+import "./App.css";
+import Navbar from "./NavBar";
+import Series1 from "./Series1";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+      <div>
+        <Navbar />
+        <Series1 />
+      </div>
+    </>
   );
 }
 

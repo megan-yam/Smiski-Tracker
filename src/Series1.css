@@ -1,0 +1,18 @@
+.hugging-knees img,
+.sitting img,
+.looking-back img,
+.lounging img,
+.hiding img,
+.peeking img {
+    filter: brightness(50%);
+    transition: filter 0.3s ease;
+}
+
+.hugging-knees img:hover,
+.sitting img:hover,
+.looking-back img:hover,
+.lounging img:hover,
+.hiding img:hover,
+.peeking img:hover {
+    filter: brightness(70%);
+}
