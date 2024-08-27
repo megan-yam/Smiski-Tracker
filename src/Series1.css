@@ -1,18 +1,28 @@
-.hugging-knees img,
-.sitting img,
-.looking-back img,
-.lounging img,
-.hiding img,
-.peeking img {
+.series1 img {
     filter: brightness(50%);
     transition: filter 0.3s ease;
 }
 
-.hugging-knees img:hover,
-.sitting img:hover,
-.looking-back img:hover,
-.lounging img:hover,
-.hiding img:hover,
-.peeking img:hover {
-    filter: brightness(70%);
+.series1 img.bright {
+    filter: brightness(100%);
+}
+
+.series1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.series1 img:hover {
+    cursor: pointer;
+}
+
+.series1 a {
+    font-size: 20pt;
+}
+
+.fa-heart:hover {
+    color: red;
+    transition: color 0.3s;
+    cursor: pointer;
 }
