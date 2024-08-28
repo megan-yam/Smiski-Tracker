@@ -10,6 +10,9 @@ function App() {
   const [list, setWish] = useState(
     Collectibles.filter((item) => item.wishlist).map((item) => item.name)
   );
+  const [favorite, setFavorite] = useState(
+    Collectibles.filter((item) => item.favorited).map((item) => item.name)
+  );
 
   function addFound(discovered) {
     if (!found.includes(discovered)) {
@@ -46,6 +49,25 @@ function App() {
     const collectible = Collectibles.find((item) => item.name === item);
     if (collectible) {
       collectible.wishlist = false;
+    }
+  }
+
+  function favoriteItem(item) {
+    if (!favorite.includes(item)) {
+      const newFavorites = [...favorite, item];
+      setFavorite(newFavorites);
+      const collectible = Collectibles.find((item) => item.name === item);
+      if (collectible) {
+        collectible.favorited = true;
+      }
+    }
+  }
+
+  function unfavoriteItem(item) {
+    setFavorite(favorite.filter((i) => i !== item));
+    const collectible = Collectibles.find((item) => item.name === item);
+    if (collectible) {
+      collectible.favorited = false;
     }
   }
 
