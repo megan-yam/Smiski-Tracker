@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Series1 from "./Series1";
 import { Collectibles } from "./Collectibles";
@@ -71,10 +71,27 @@ function App() {
     }
   }
 
+  // purely for debugging purposes
+  useEffect(() => {
+    console.log("Found:", found);
+    console.log("List:", list);
+    console.log("Favorite:", favorite);
+  }, [found, list, favorite]);
+
   return (
     <>
       <div className="landing">
-        <Series1 found={found} addFound={addFound} removeFound={removeFound} />
+        <Series1
+          found={found}
+          addFound={addFound}
+          removeFound={removeFound}
+          favoriteItem={favoriteItem}
+          unfavoriteItem={unfavoriteItem}
+          favorite={favorite}
+          list={list}
+          addToList={addToList}
+          removeFromList={removeFromList}
+        />
       </div>
     </>
   );

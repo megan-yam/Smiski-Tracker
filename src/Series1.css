@@ -4,29 +4,11 @@
     width: 100%;
 }
 
-.series1 img.bright {
-    filter: brightness(100%);
-}
-
 .series1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.series1 img:hover {
-    cursor: pointer;
-}
-
-.series1 a {
-    font-size: 20pt;
-}
-
-.fa-heart:hover {
-    color: red;
-    transition: color 0.3s;
-    cursor: pointer;
 }
 
 .smiski-container {
@@ -38,8 +20,42 @@
 .smiski-container >div {
     width: 250px;
     height: 300px;
+    align-items: center;
     border: 2px solid green;
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    border-radius: 20px;
+}
+
+.series1 img:hover {
+    cursor: pointer;
+}
+
+.series1 a {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.fa-heart {
+    filter: brightness(50%);
+    transition: filter 0.3s ease;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.fa-heart.favorited {
+    color: red;
+    filter: brightness(100%);
+}
+
+.fa-list {
+    filter: brightness(50%);
+    transition: filter 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.fa-list.added {
+    color: #0fd9d2;
+    filter: none;
 }

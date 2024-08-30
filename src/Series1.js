@@ -2,13 +2,39 @@ import "./Series1.css";
 import { Collectibles } from "./Collectibles";
 
 function Series1(props) {
-  const { addFound, removeFound, found } = props;
+  const {
+    addFound,
+    removeFound,
+    found,
+    favoriteItem,
+    unfavoriteItem,
+    favorite,
+    addToList,
+    removeFromList,
+    list,
+  } = props;
 
-  const handleClick = (item) => {
+  const handleFound = (item) => {
     if (found.includes(item)) {
       removeFound(item);
     } else {
       addFound(item);
+    }
+  };
+
+  const handleFavorite = (item) => {
+    if (favorite.includes(item)) {
+      unfavoriteItem(item);
+    } else {
+      favoriteItem(item);
+    }
+  };
+
+  const handleList = (item) => {
+    if (list.includes(item)) {
+      removeFromList(item);
+    } else {
+      addToList(item);
     }
   };
 
@@ -28,9 +54,20 @@ function Series1(props) {
                     ? "brightness(100%)"
                     : "brightness(50%)",
                 }}
-                onClick={() => handleClick(item.name)}
+                onClick={() => handleFound(item.name)}
               />
-              <i className="fa-regular fa-heart"></i>
+              <i
+                className={`fa-regular fa-heart ${
+                  favorite.includes(item.name) ? "favorited" : ""
+                }`}
+                onClick={() => handleFavorite(item.name)}
+              />
+              <i
+                className={`fa-solid fa-list ${
+                  list.includes(item.name) ? "added" : ""
+                }`}
+                onClick={() => handleList(item.name)}
+              />
             </div>
           ))}
         </div>
