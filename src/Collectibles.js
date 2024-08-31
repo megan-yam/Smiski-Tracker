@@ -12,6 +12,7 @@ export const Collectibles = [
     favorited: false,
     wishlist: false,
     imageSrc: hugging,
+    series: "series1",
     altText: "smiski hugging",
   },
   {
@@ -20,6 +21,7 @@ export const Collectibles = [
     favorited: false,
     wishlist: false,
     imageSrc: sitting,
+    series: "series1",
     altText: "smiski sitting",
   },
   {
@@ -28,6 +30,7 @@ export const Collectibles = [
     favorited: false,
     wishlist: false,
     imageSrc: lookingBack,
+    series: "series1",
     altText: "smiski looking back",
   },
   {
@@ -36,6 +39,7 @@ export const Collectibles = [
     favorited: false,
     wishlist: false,
     imageSrc: lounging,
+    series: "series1",
     altText: "smiski lounging",
   },
   {
@@ -44,6 +48,7 @@ export const Collectibles = [
     favorited: false,
     wishlist: false,
     imageSrc: hiding,
+    series: "series1",
     altText: "smiski hiding",
   },
   {
@@ -52,6 +57,7 @@ export const Collectibles = [
     favorited: false,
     wishlist: false,
     imageSrc: peeking,
+    series: "series1",
     altText: "smiski peeking",
   },
 ];

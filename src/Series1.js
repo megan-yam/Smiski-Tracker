@@ -3,7 +3,6 @@ import { Collectibles } from "./Collectibles";
 
 function Series1(props) {
   const {
-    collectibles,
     addFound,
     removeFound,
     found,
@@ -42,7 +41,12 @@ function Series1(props) {
   return (
     <>
       <div className="series1">
-        <a href="https://smiski.com/e/products/series-1/">Series 1</a>
+        <a
+          href="https://smiski.com/e/products/series-1/"
+          className="series-link"
+        >
+          Series 1
+        </a>
         <div className="smiski-container">
           {Collectibles.map((item) => (
             <div key={item.name} className={item.name}>
