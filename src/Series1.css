@@ -20,12 +20,14 @@
 .smiski-container >div {
     width: 250px;
     height: 300px;
+    flex-direction: column;
     align-items: center;
     border: 2px solid green;
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
     border-radius: 20px;
+    position: relative;
 }
 
 .series1 img:hover {
@@ -35,27 +37,35 @@
 .series1 a {
     font-size: 20pt;
     text-align: center;
+    display: block;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0;
 }
 
 .fa-heart {
+    margin-right: 20px;
     filter: brightness(50%);
     transition: filter 0.3s ease;
     cursor: pointer;
-    padding-right: 20px;
 }
 
-.fa-heart.favorited {
+.fa-heart.fa-solid {
     color: red;
-    filter: brightness(100%);
+    filter: none;
 }
 
-.fa-list {
+.fa-star {
     filter: brightness(50%);
-    transition: filter 0.3s ease, color 0.3s ease;
+    transition: filter 0.3s ease;
     cursor: pointer;
 }
 
-.fa-list.added {
-    color: #0fd9d2;
+.fa-star.fa-solid {
+    color: #e1ff00;
     filter: none;
 }

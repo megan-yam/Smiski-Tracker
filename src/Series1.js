@@ -3,6 +3,7 @@ import { Collectibles } from "./Collectibles";
 
 function Series1(props) {
   const {
+    collectibles,
     addFound,
     removeFound,
     found,
@@ -56,18 +57,20 @@ function Series1(props) {
                 }}
                 onClick={() => handleFound(item.name)}
               />
-              <i
-                className={`fa-regular fa-heart ${
-                  favorite.includes(item.name) ? "favorited" : ""
-                }`}
-                onClick={() => handleFavorite(item.name)}
-              />
-              <i
-                className={`fa-solid fa-list ${
-                  list.includes(item.name) ? "added" : ""
-                }`}
-                onClick={() => handleList(item.name)}
-              />
+              <div className="icon-container">
+                <i
+                  className={` fa-heart ${
+                    favorite.includes(item.name) ? "fa-solid" : "fa-regular"
+                  }`}
+                  onClick={() => handleFavorite(item.name)}
+                />
+                <i
+                  className={`fa-star ${
+                    list.includes(item.name) ? "fa-solid" : "fa-regular"
+                  }`}
+                  onClick={() => handleList(item.name)}
+                />
+              </div>
             </div>
           ))}
         </div>
