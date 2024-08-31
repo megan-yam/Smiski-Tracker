@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/smiski-tracker/static/css/main.f855e6bc.css",
-    "main.js": "/smiski-tracker/static/js/main.5407bf72.js",
-    "static/js/453.d05b36b9.chunk.js": "/smiski-tracker/static/js/453.d05b36b9.chunk.js",
-    "static/media/logo.svg": "/smiski-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/smiski-tracker/static/css/main.64c159bb.css",
+    "main.js": "/smiski-tracker/static/js/main.72fc0115.js",
+    "static/media/sitting.png": "/smiski-tracker/static/media/sitting.fe29d2e1e426ca2c0521.png",
+    "static/media/hugging-knees.png": "/smiski-tracker/static/media/hugging-knees.29a4aebfbf1346e98a9d.png",
+    "static/media/lounging.png": "/smiski-tracker/static/media/lounging.be6a4855b68487c8c5ba.png",
+    "static/media/looking-back.png": "/smiski-tracker/static/media/looking-back.f5ea585bef91709fe751.png",
+    "static/media/peeking.png": "/smiski-tracker/static/media/peeking.08703b8697184060284c.png",
+    "static/media/hiding.png": "/smiski-tracker/static/media/hiding.880d6bc5800b6e129d0a.png",
     "index.html": "/smiski-tracker/index.html",
-    "main.f855e6bc.css.map": "/smiski-tracker/static/css/main.f855e6bc.css.map",
-    "main.5407bf72.js.map": "/smiski-tracker/static/js/main.5407bf72.js.map",
-    "453.d05b36b9.chunk.js.map": "/smiski-tracker/static/js/453.d05b36b9.chunk.js.map"
+    "main.64c159bb.css.map": "/smiski-tracker/static/css/main.64c159bb.css.map",
+    "main.72fc0115.js.map": "/smiski-tracker/static/js/main.72fc0115.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.5407bf72.js"
+    "static/css/main.64c159bb.css",
+    "static/js/main.72fc0115.js"
   ]
 }
