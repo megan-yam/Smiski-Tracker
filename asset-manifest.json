@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Smiski-Tracker/static/css/main.209c6873.css",
-    "main.js": "/Smiski-Tracker/static/js/main.0a6d9564.js",
+    "main.css": "/Smiski-Tracker/static/css/main.8a65e61e.css",
+    "main.js": "/Smiski-Tracker/static/js/main.6f15f55e.js",
     "static/media/sitting.png": "/Smiski-Tracker/static/media/sitting.fe29d2e1e426ca2c0521.png",
     "static/media/hugging-knees.png": "/Smiski-Tracker/static/media/hugging-knees.29a4aebfbf1346e98a9d.png",
     "static/media/lounging.png": "/Smiski-Tracker/static/media/lounging.be6a4855b68487c8c5ba.png",
@@ -9,11 +9,11 @@
     "static/media/peeking.png": "/Smiski-Tracker/static/media/peeking.08703b8697184060284c.png",
     "static/media/hiding.png": "/Smiski-Tracker/static/media/hiding.880d6bc5800b6e129d0a.png",
     "index.html": "/Smiski-Tracker/index.html",
-    "main.209c6873.css.map": "/Smiski-Tracker/static/css/main.209c6873.css.map",
-    "main.0a6d9564.js.map": "/Smiski-Tracker/static/js/main.0a6d9564.js.map"
+    "main.8a65e61e.css.map": "/Smiski-Tracker/static/css/main.8a65e61e.css.map",
+    "main.6f15f55e.js.map": "/Smiski-Tracker/static/js/main.6f15f55e.js.map"
   },
   "entrypoints": [
-    "static/css/main.209c6873.css",
-    "static/js/main.0a6d9564.js"
+    "static/css/main.8a65e61e.css",
+    "static/js/main.6f15f55e.js"
   ]
 }
