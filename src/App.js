@@ -81,28 +81,26 @@ function App() {
   }, [found, list, favorite]);
 
   return (
-    <>
-      <div className="landing">
-        <Filter
-          found={found}
-          favorite={favorite}
-          list={list}
-          setFilteredItems={setFilteredItems}
-        />
-        <Series1
-          found={found}
-          addFound={addFound}
-          removeFound={removeFound}
-          favoriteItem={favoriteItem}
-          unfavoriteItem={unfavoriteItem}
-          favorite={favorite}
-          list={list}
-          addToList={addToList}
-          removeFromList={removeFromList}
-          filteredItems={filteredItems}
-        />
-      </div>
-    </>
+    <div className="homepage">
+      <Filter
+        found={found}
+        favorite={favorite}
+        list={list}
+        setFilteredItems={setFilteredItems}
+      />
+      <Series1
+        found={found}
+        addFound={addFound}
+        removeFound={removeFound}
+        favoriteItem={favoriteItem}
+        unfavoriteItem={unfavoriteItem}
+        favorite={favorite}
+        list={list}
+        addToList={addToList}
+        removeFromList={removeFromList}
+        filteredItems={filteredItems}
+      />
+    </div>
   );
 }
 

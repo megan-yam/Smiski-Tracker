@@ -1,5 +1,4 @@
 import "./Series1.css";
-import { Collectibles } from "./Collectibles";
 
 function Series1(props) {
   const {
@@ -43,7 +42,7 @@ function Series1(props) {
     <>
       <div className="series1">
         <a
-          href="https://smiski.com/e/products/series-1/"
+          href="https://sonnyangelusa.com/collections/smiski/products/smiski-series-01"
           className="series-link"
         >
           Series 1

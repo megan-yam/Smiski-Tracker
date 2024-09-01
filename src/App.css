@@ -1,5 +1,7 @@
-.landing {
+.homepage {
   background-color: #b6fac3;
-  margin: 0;
-  padding: 10px;
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
 }
