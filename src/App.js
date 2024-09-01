@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Series1 from "./Series1";
 import { Collectibles } from "./Collectibles";
+import Filter from "./Filter";
 
 function App() {
   const [found, setFound] = useState(
@@ -13,6 +14,7 @@ function App() {
   const [favorite, setFavorite] = useState(
     Collectibles.filter((item) => item.favorited).map((item) => item.name)
   );
+  const [filteredItems, setFilteredItems] = useState(Collectibles);
 
   function addFound(discovered) {
     if (!found.includes(discovered)) {
@@ -81,6 +83,12 @@ function App() {
   return (
     <>
       <div className="landing">
+        <Filter
+          found={found}
+          favorite={favorite}
+          list={list}
+          setFilteredItems={setFilteredItems}
+        />
         <Series1
           found={found}
           addFound={addFound}
@@ -91,6 +99,7 @@ function App() {
           list={list}
           addToList={addToList}
           removeFromList={removeFromList}
+          filteredItems={filteredItems}
         />
       </div>
     </>

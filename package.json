@@ -1,7 +1,7 @@
 {
   "name": "smiski-tracker",
   "version": "0.1.0",
-  "homepage": "https://megan-yam.github.io/smiski-tracker",
+  "homepage": "https://megan-yam.github.io/Smiski-Tracker/",
   "private": false,
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.6.0",

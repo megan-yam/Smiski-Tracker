@@ -12,6 +12,7 @@ function Series1(props) {
     addToList,
     removeFromList,
     list,
+    filteredItems,
   } = props;
 
   const handleFound = (item) => {
@@ -48,7 +49,7 @@ function Series1(props) {
           Series 1
         </a>
         <div className="smiski-container">
-          {Collectibles.map((item) => (
+          {filteredItems.map((item) => (
             <div key={item.name} className={item.name}>
               <img
                 src={item.imageSrc}

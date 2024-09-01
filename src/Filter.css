@@ -1,0 +1,18 @@
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+  border: 1px solid #000;
+  background: white;
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.button.active {
+    background:#1E3A8A ;
+    color: white;
+}
