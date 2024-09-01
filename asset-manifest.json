@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/smiski-tracker/static/css/main.64c159bb.css",
-    "main.js": "/smiski-tracker/static/js/main.72fc0115.js",
-    "static/media/sitting.png": "/smiski-tracker/static/media/sitting.fe29d2e1e426ca2c0521.png",
-    "static/media/hugging-knees.png": "/smiski-tracker/static/media/hugging-knees.29a4aebfbf1346e98a9d.png",
-    "static/media/lounging.png": "/smiski-tracker/static/media/lounging.be6a4855b68487c8c5ba.png",
-    "static/media/looking-back.png": "/smiski-tracker/static/media/looking-back.f5ea585bef91709fe751.png",
-    "static/media/peeking.png": "/smiski-tracker/static/media/peeking.08703b8697184060284c.png",
-    "static/media/hiding.png": "/smiski-tracker/static/media/hiding.880d6bc5800b6e129d0a.png",
-    "index.html": "/smiski-tracker/index.html",
-    "main.64c159bb.css.map": "/smiski-tracker/static/css/main.64c159bb.css.map",
-    "main.72fc0115.js.map": "/smiski-tracker/static/js/main.72fc0115.js.map"
+    "main.css": "/Smiski-Tracker/static/css/main.209c6873.css",
+    "main.js": "/Smiski-Tracker/static/js/main.0a6d9564.js",
+    "static/media/sitting.png": "/Smiski-Tracker/static/media/sitting.fe29d2e1e426ca2c0521.png",
+    "static/media/hugging-knees.png": "/Smiski-Tracker/static/media/hugging-knees.29a4aebfbf1346e98a9d.png",
+    "static/media/lounging.png": "/Smiski-Tracker/static/media/lounging.be6a4855b68487c8c5ba.png",
+    "static/media/looking-back.png": "/Smiski-Tracker/static/media/looking-back.f5ea585bef91709fe751.png",
+    "static/media/peeking.png": "/Smiski-Tracker/static/media/peeking.08703b8697184060284c.png",
+    "static/media/hiding.png": "/Smiski-Tracker/static/media/hiding.880d6bc5800b6e129d0a.png",
+    "index.html": "/Smiski-Tracker/index.html",
+    "main.209c6873.css.map": "/Smiski-Tracker/static/css/main.209c6873.css.map",
+    "main.0a6d9564.js.map": "/Smiski-Tracker/static/js/main.0a6d9564.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c159bb.css",
-    "static/js/main.72fc0115.js"
+    "static/css/main.209c6873.css",
+    "static/js/main.0a6d9564.js"
   ]
 }
